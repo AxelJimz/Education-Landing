@@ -1,0 +1,38 @@
+// * CONFIGURATION FORM
+// * INPUT HEADER
+$input-header: (
+  "used": true,
+  "width": 100%,
+  "padding": 1rem 1.125rem,
+  "size": 0.75rem,
+  "color": #aaaaaa,
+  "bg": #fff,
+  "border-color" : #fff,
+  "border-hover": #00c389,
+);
+// * INPUT SECTION
+$input-section: (
+  "used": true,
+  "width": none,
+  "padding": none,
+  "size": none,
+  "color": none,
+  "bg": none,
+  "border-color" : none,
+  "border-hover": none,
+);
+// * INPUT FOOTER
+$input-footer: (
+  "used": false,
+  "width": none,
+  "padding": none,
+  "size": none,
+  "color": none,
+  "bg": none,
+  "border-color" : none,
+  "border-hover": none,
+);
+
+
+
+
