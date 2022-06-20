@@ -43,13 +43,13 @@ $breakpoints: (
     grid-column: span 2;
   }
 
-  .md-flex {
-    display: flex;
-  }
-
-  .md-justify-right {
-    justify-content: flex-end;
-  }
+  @include isMd-Flex();
+  @include isMd-Column();
+  @include isMd-JustifyLeft();
+  @include isMd-JustifyCenter();
+  @include isMd-JustifyRight();
+  @include isMd-JustifyBetween();
+  @include isMd-JustifySAround();
 
   .md-text-left {
     text-align: left;
@@ -73,7 +73,6 @@ $breakpoints: (
   }
   .navbar-ul {
     display: flex;
-    align-items: center;
   }
   .navbar-link {
     margin: 0 1rem 0 0;
@@ -102,6 +101,18 @@ $breakpoints: (
     grid-column: span 2;
   }
 
+  .lg-span-3 {
+    grid-column: span 3;
+  }
+
+  @include isLg-Flex();
+  @include isLg-Column();
+  @include isLg-JustifyLeft();
+  @include isLg-JustifyCenter();
+  @include isLg-JustifyRight();
+  @include isLg-JustifyBetween();
+  @include isLg-JustifySAround();
+
   .lg-text-left {
     text-align: left;
   }
@@ -117,7 +128,7 @@ $breakpoints: (
     display: none;
   }
   .lg-d-block {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -142,10 +153,9 @@ $breakpoints: (
     grid-template-columns: repeat(6, 1fr);
   }
 }
-/* 
-@media screen and (min-height: 1024px) {
-  .header {
-    height: ;
-  }
-}
- */
+
+// @media screen and (min-height: 1024px) {
+//   .header {
+//     height: 800px;
+//   }
+// }

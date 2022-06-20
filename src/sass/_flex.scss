@@ -6,16 +6,16 @@ $column : false, column;
 $justify-left : true, flex-start;
 $justify-center : true, center;
 $justify-right : true, flex-end;
-$justify-between : true, space-between;
+$justify-between : false, space-between;
 $justify-around : false, space-around;
 // * ALING ITEMS
 $aling-top : false, flex-start;
-$aling-center : true, center;
+$aling-center : false, center;
 $aling-bottom : false, flex-end;
 $aling-between : false, space-between;
 $aling-around : false, space-around;
 // * WRAP 
-$wrap : false, wrap;
+$wrap : true, wrap;
 // * GROW
 $grow-1 : false, 1;
 $grow-2 : false, 2;
@@ -38,6 +38,34 @@ $content-center-right : (
     "justify" : flex-end,
     "aling" : flex-end,
 );
+
+/* MD 768PX */
+
+// * FLEX
+$md-flex : true, flex;
+$md-column : false, column;
+// * JUSTIFY CONTENT
+$md-justify-left : true, flex-start;
+$md-justify-center : true, center;
+$md-justify-right : true, flex-end;
+$md-justify-between : false, space-between;
+$md-justify-around : false, space-around;
+
+/* LG 992PX */
+
+// * FLEX
+$lg-flex : true, flex;
+$lg-column : false, column;
+// * JUSTIFY CONTENT
+$lg-justify-left : true, flex-start;
+$lg-justify-center : true, center;
+$lg-justify-right : true, flex-end;
+$lg-justify-between : false, space-between;
+$lg-justify-around : false, space-around;
+
+
+
+
 
 
 

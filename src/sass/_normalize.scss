@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+
 *,
 ::after {
   box-sizing: border-box;
@@ -196,13 +197,13 @@ a,
 button,
 i,
 input {
-  outline: none;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  cursor: pointer;
+    outline: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    cursor: pointer;
 }
 
 a,
@@ -229,6 +230,7 @@ ul {
 p {
   font-family: "Raleway", sans-serif;
 }
+
 
 img,
 video {

@@ -4,20 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SEO LANDING</title>
+    <title>Education Landing</title>
     <link rel="icon" href="src/images/icons/ico.ico">
     <link rel="stylesheet" href="dist/css/style.min.css" />
-    <script src="https://kit.fontawesome.com/ecd11e7fac.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ecd11e7fac.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
       <nav class="nav">
         <div class="container">
+          <!-- BLOCK 1 -->
+          <div class="navbar">
+            <div class="navbar-info lg-d-none">
+              <span class="navbar-link"
+                ><b class="color-black">CORREO ELECTRÓNICO</b> :
+                EXAMPLE@GMAIL.COM</span
+              >
+            </div>
+            <div class="navbar-brand d-none lg-d-block">
+              <img src="src/images/icons/Logo-black.png" alt="logo-black" style="height: 43px; margin: auto 0;"/>
+            </div>
+            <div class="navbar-info">
+              <span class="navbar-link d-none lg-d-block"
+                ><b class="color-black">CORREO ELECTRÓNICO</b> :
+                EXAMPLE@GMAIL.COM</span
+              >
+              <span class="navbar-link"
+                ><b class="color-black">LLÁMANOS</b> : +402013615455</span
+              >
+            </div>
+          </div>
           <!-- BLOCK 2 -->
           <div class="navbar lg-d-none">
             <div class="navbar-brand">
-              <img src="src/images/icons/logo.png" alt="logo" style="height: 43px;"/>
+              <img src="src/images/icons/Logo-black.png" alt="logo-black" style="height: 43px;"/>
             </div>
             <div>
               <a href="#">
@@ -31,215 +55,279 @@
           </div>
           <!-- BLOCK 3 -->
           <div class="navbar-desktop">
-            <div class="navbar-brand d-none lg-d-block">
-              <img src="src/images/icons/logo.png" alt="logo" style="height: 43px;" />
-            </div>
             <ul class="navbar-ul">
-              <li><a class="navbar-link scroll" href="#services">NUESTROS SERVICIOS</a></li>
-              <li><a class="navbar-link scroll" href="#process">NUESTRO PROCESO</a></li>
-              <li><a class="navbar-link scroll" href="#pricing"> TABLA DE PRECIOS</a></li>
+              <li><a class="navbar-link scroll" href="#category">NUESTRA CATEGORÍA</a></li>
+              <li><a class="navbar-link scroll" href="#about">SOBRE NOSOTROS</a></li>
+              <li><a class="navbar-link scroll" href="#courses">NUESTROS CURSOS</a></li>
               <li>
-                <a class="navbar-link btn-small margin-0 scroll" href="#order"
-                  >ORDENA AHORA</a
+                <a class="navbar-link margin-0 scroll" href="#team"
+                  >NUESTROS INSTRUCTORES</a
                 >
               </li>
             </ul>
+            <div class="navbar-btn d-none lg-d-block">
+              <a class="btn-small scroll" href="#courses-2">APROVECHA TU CURSO</a>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="container content-center text-center">
+      <div class="container content-center">
         <div>
+          <!-- INFO -->
           <div class="marginB-64">
-            <span class="heading-3">OPTIMIZACIÓN DEL MOTOR DE BÚSQUEDA</span>
-            <h1 class="heading-1">SEO Y ESTRATEGIA DIGITAL</h1>
-            <a class="btn-big scroll" href="#order">SOLICITAR SERVICIOS DE SEO</a>
-          </div> 
-          <div>
-            <img src="src/images/backgrounds/header-banner.png" alt="header-banner">
+            <span class="heading-3">APRENDE CON NOSOTROS</span>
+            <h1 class="heading-1">ESTUDIA CON EXPERTOS</h1>
+            <p class="paragraph-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              pariatur, assumenda omnis iste sed expedita. Iste possimus
+              voluptate, aut culpa explicabo vitae sapiente nulla temporibus
+              eveniet debitis eligendi sit distinctio.
+            </p>
           </div>
+          <!-- FORM -->
+          <form class="form row columns-4 gap-24">
+            <input type="text" class="input-header" placeholder="Su nombre" />
+            <input
+              type="email"
+              class="input-header"
+              placeholder="Su correo electrónico"
+            />
+            <input
+              type="number"
+              class="input-header"
+              placeholder="Número de teléfono"
+            />
+            <button class="btn-medium">APROVECHA TU CURSO</button>
+          </form>
         </div>
       </div>
     </header>
-    <!-- MAIN -->
     <main>
-      <!-- SECTION SERVICES -->
-      <section class="section" id="services">
+      <!-- SECTION CATEGORY -->
+      <section class="section" id="category">
         <div class="container">
-          <!-- INFO SERVICES -->
-          <div class="text-center marginB-64">
-            <span class="heading-4">Nuestros servicios</span>
-            <h2 class="heading-2">POR QUÉ ELEGIRNOS</h2>
-            <img src="src/images/others/line-light.png" alt="line-light">
-          </div>
-          <!-- CARD SERVICES -->
-          <div class="row columns-3 gap-24">
-              <div class="padding-16 bg-orange text-center">
-                <div class="content-center marginB-24">
-                  <img src="src/images/card-images/service-1.png" alt="service-1">
-                </div>
-                <div>
-                  <h3 class="heading-3 color-white">Estrategia de Búsqueda Local</h3>
-                  <p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo harum fugiat consequuntur non, voluptatum facere commodi pariatur sint praesentium alias dolorem.</p>
-                </div>
+          <!-- CATEGORY CARDS -->
+          <div class="row columns-4 gap-24">
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 content-center">
+                <img
+                  class="marginB-16"
+                  src="src/images/card-images/card-info-1.png"
+                  alt="card-info-1"
+                />
               </div>
-              <div class="padding-16 bg-cyan text-center">
-                <div class="content-center marginB-24">
-                  <img src="src/images/card-images/service-2.png" alt="service-2">
-                </div>
-                <div>
-                  <h3 class="heading-3 color-white">Optimización de Búsqueda de Mapas</h3>
-                  <p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo harum fugiat consequuntur non, voluptatum facere commodi pariatur sint praesentium alias dolorem.</p>
-                </div>
+              <h3 class="heading-3 margin-0 medium">Análisis de datos</h3>
+            </div>
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 content-center">
+                <img
+                  class="marginB-16"
+                  src="src/images/card-images/card-info-2.png"
+                  alt="card-info-2"
+                />
               </div>
-              <div class="padding-16 bg-yellow text-center">
-                <div class="content-center marginB-24">
-                  <img src="src/images/card-images/service-1.png" alt="service-1">
-                </div>
-                <div>
-                  <h3 class="heading-3 color-white">Publicidad de Búsqueda Pagada</h3>
-                  <p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo harum fugiat consequuntur non, voluptatum facere commodi pariatur sint praesentium alias dolorem.</p>
-                </div>
-              </div>       
+              <h3 class="heading-3 margin-0 medium">Fotografía</h3>
+            </div>
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 content-center">
+                <img
+                  class="marginB-16"
+                  src="src/images/card-images/card-info-3.png"
+                  alt="card-info-3"
+                />
+              </div>
+              <h3 class="heading-3 margin-0 medium">Software</h3>
+            </div>
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 content-center">
+                <img
+                  class="marginB-16"
+                  src="src/images/card-images/card-info-4.png"
+                  alt="card-info-4"
+                />
+              </div>
+              <h3 class="heading-3 margin-0 medium">Aplicación movil</h3>
+            </div>
           </div>
         </div>
       </section>
-      <!-- SECTION ORDER -->
-      <section class="section bg-black" id="order">
-        <div class="container paddingY-96">
-         <!--  ORDEN INFO -->
-          <div class="text-center marginB-64">
-            <span class="heading-4">Ordenar ahora</span>
-            <h2 class="heading-2">SOLICITE SUS SERVICIOS HOY</h2>
-            <img src="src/images/others/line-red.png" alt="line-red">
-          </div>
-          <!-- ORDEN FORM -->
-          <form class="form row columns-4 gap-24">
-            <input type="text" class="input-section" placeholder="Su nombre">
-            <input type="email" class="input-section" placeholder="Dirección de correo electrónico">
-            <input type="number" class="input-section" placeholder="Número de teléfono">
-            <button class="btn-medium">PIDE TUS SERVICIOS</button>
-          </form>
-        </div>
-      </section>
-      <!-- SECTION PROCESS -->
-      <section class="section" id="process">
+      <!-- SECTION ABOUT US -->
+      <section class="section" id="about">
         <div class="container">
-          <!-- INFO PROCESOS -->
-          <div class="text-center marginB-64">
-            <span class="heading-4">Nuestro proceso</span>
-            <h2 class="heading-2">CÓMO TE PODEMOS AYUDAR</h2>
-            <img src="src/images/others/line-light.png" alt="line-light">
-          </div>
-          <!-- CARDS PROCESOS -->
+         <!--  ABOUT INFO -->
+         <div class="text-center marginB-64">
+           <span class="heading-4">Vamos a Empezar</span>
+           <h2 class="heading-2">BIENVENIDOS A LA EDUCACIÓN DE NOSOTROS</h2>
+           <img src="src/images/others/line-cyan.png" alt="line-cyan">
+         </div>
+          <!--  ABOUT CARDS -->
           <div class="row columns-3 gap-24">
-            <div class="padding-16 text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/process-1.png" alt="process-1">
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 marginB-16">
+                <img class="marginB-16" src="src/images/card-images/card-about-1.png" alt="card-about-1">
               </div>
-              <div>
-                <h3 class="heading-3 regular">Proyecto de investigación</h3>
-              </div>
+              <h3 class="heading-3 medium">Principiante</h3>
+              <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores excepturi molestiae.</p>
             </div>
-            <div class="padding-16 text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/process-2.png" alt="process-2">
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 marginB-16">
+                <img src="src/images/card-images/card-about-2.png" alt="card-about-2">
               </div>
-              <div>
-                <h3 class="heading-3 regular">Encuentra ideas</h3>
-              </div>
+              <h3 class="heading-3 medium">Intermedio</h3>
+              <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores excepturi molestiae.</p>
             </div>
-            <div class="padding-16 text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/process-3.png" alt="process-3">
+            <div class="padding-24 text-center bg-light">
+              <div class="w-100 h-64 marginB-16">
+                <img src="src/images/card-images/card-about-3.png" alt="card-about-3">
               </div>
-              <div>
-                <h3 class="heading-3 regular">Alcanzar objetivo</h3>
-              </div>
+              <h3 class="heading-3 medium">Experto</h3>
+              <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores excepturi molestiae.</p>
             </div>
-          </div>   
+
+          </div>
         </div>
       </section>
-      <!-- SECTION PRICING -->
-      <section class="section bg-light" id="pricing">
+      <!-- SECTION COURSES -->
+      <section class="section bg-light" id="courses">
         <div class="container">
-          <!-- INFO PRICING -->
-          <div class="text-center marginB-64">
-            <span class="heading-4">Tabla de precios</span>
-            <h2 class="heading-2">NUESTRO GRAN PRECIO</h2>
-            <img src="src/images/others/line-light.png" alt="line-light">
-          </div>
-          <!-- CARDS PRICING -->
+          <!--  COURSES INFO -->
+         <div class="text-center marginB-64">
+          <span class="heading-4">Cursos ilimitados</span>
+          <h2 class="heading-2">ELIGE TU CURSO</h2>
+          <img src="src/images/others/line-cyan.png" alt="line-cyan">
+        </div>
+          <!-- COURSES CARDS -->
           <div class="row columns-3 gap-24">
-            <div class="padding-16 bg-white text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/pricing-1.png" alt="pricing-1">
-              </div>
+            <div class="text-center md-text-left">
               <div>
-                <h3 class="heading-2 regular color-black">Personal</h3>
-                <ul class="marginB-32">
-                  <li><p class="paragraph-2">5 campañas de análisis</p></li>
-                  <li><p class="paragraph-2">300 palabras clave</p></li>
-                  <li><p class="paragraph-2">250.000 páginas rastreadas</p></li>
-                  <li><p class="paragraph-2">15 cuentas sociales</p></li>
-                </ul>
-                <h4 class="heading-1 color-black">$19</h4>
-                <p class="paragraph-2">Por mes</p>
-                <a class="btn-big scroll" href="#">EMPEZAR</a>    
+                <img src="src/images/card-images/card-course-1.jpg" alt="card-course-1">
               </div>
+              <div class="padding-16">
+                <span class="heading-4 medium color-black">$180</span>
+                <h3 class="heading-3 medium">Contabilidad financiera</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+                <a class="btn-medium scroll" href="#">APLICA YA</a>
+              </div>   
             </div>
-            <div class="padding-16 bg-white text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/pricing-3.png" alt="pricing-3">
-              </div>
+            <div class="text-center md-text-left">
               <div>
-                <h3 class="heading-2 regular color-black">Negocio</h3>
-                <ul class="marginB-32">
-                  <li><p class="paragraph-2">25 campañas de análisis</p></li>
-                  <li><p class="paragraph-2">1900 palabras clave</p></li>
-                  <li><p class="paragraph-2">1.250.000 páginas rastreadas</p></li>
-                  <li><p class="paragraph-2">50 cuentas sociales</p></li>
-                </ul>
-                <h4 class="heading-1 color-black">$29</h4>
-                <p class="paragraph-2">Por mes</p>
-                <a class="btn-big scroll" href="#">EMPEZAR</a>    
+                <img src="src/images/card-images/card-course-2.jpg" alt="card-course-2">
               </div>
+              <div class="padding-16">
+                <span class="heading-4 medium color-black">GRATIS</span>
+                <h3 class="heading-3 medium">Técnicas de programación</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+                <a class="btn-medium scroll" href="#">APLICA YA</a>
+              </div>   
             </div>
-            <div class="padding-16 bg-white text-center">
-              <div class="content-center marginB-24">
-                <img src="src/images/card-images/pricing-1.png" alt="pricing-1">
-              </div>
+            <div class="text-center md-text-left">
               <div>
-                <h3 class="heading-2 regular color-black">Profesional</h3>
-                <ul class="marginB-32">
-                  <li><p class="paragraph-2">100 campañas de análisis</p></li>
-                  <li><p class="paragraph-2">7500 palabras clave</p></li>
-                  <li><p class="paragraph-2">1.250.000 páginas rastreadas</p></li>
-                  <li><p class="paragraph-2">150 cuentas sociales</p></li>
-                </ul>
-                <h4 class="heading-1 color-black">$39</h4>
-                <p class="paragraph-2">Por mes</p>
-                <a class="btn-big scroll" href="#">EMPEZAR</a>    
+                <img src="src/images/card-images/card-course-3.jpg" alt="card-course-3">
               </div>
+              <div class="padding-16">
+                <span class="heading-4 medium color-black">$120</span>
+                <h3 class="heading-3 medium">Diseñador gráfico</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+                <a class="btn-medium scroll" href="#">APLICA YA</a>
+              </div>   
             </div>
           </div>
         </div>
       </section>
-      <!-- SECTION QUOTE -->
-      <section class="section bg-cyan">
-        <div class="container paddingY-96 text-center">
-          <img class="marginB-64" src="src/images/others/quote.png" alt="quote">
-          <h2 class="heading-2 color-white medium">“ HEMOS AYUDADOS A CREAR SOLUCIONES QUE MEJORAN LAS PLATAFORMAS EXISTENTES. ”</h2>
-          <span class="heading-4 color-white">-Angel Goméz</span>
+      <!-- SECTION COURSES 2 -->
+      <section class="section bg-banner" id="courses-2">
+        <div class="container">
+          <!-- COURSES INFO -->
+          <div class="text-center marginB-32">
+            <span class="heading-4">Cursos ilimitados</span>
+            <h2 class="heading-2">ELIGE TU CURSO</h2>
+            <p class="paragraph-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur officia vel atque velit, doloribus deserunt, fugiat quod laudantium, non dolore asperiores nemo odit.</p>
+          </div>
+          <div class="flex justify-center text-center wrap marginB-32">
+            <div class="paddingX-32">
+              <h3 class="heading-3 marginB-8">100</h3>
+              <p class="paragraph-2 color-black bold">Dias</p>
+            </div>
+            <div class="paddingX-32">
+              <h3 class="heading-3 marginB-8">22</h3>
+              <p class="paragraph-2 color-black bold">Horas</p>
+            </div>
+            <div class="paddingX-32">
+              <h3 class="heading-3 marginB-8">60</h3>
+              <p class="paragraph-2 color-black bold">Minutos</p>
+            </div>
+            <div class="paddingX-32">
+              <h3 class="heading-3 marginB-8">25</h3>
+              <p class="paragraph-2 color-black bold">Segundos</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <a class="btn-medium scroll" href="#">APROVECHA TU CURSO</a>
+          </div>
         </div>
       </section>
-      <!-- SECTION CTA -->
-      <section class="section">
-        <div class="container row columns-3 gap-24 text-center lg-text-left">
-          <div class="lg-span-2 content-center">
-            <h2 class="heading-3 margin-0">¡Así es! Consideramos la mejor agencia SEO de todos los tiempos</h2>
+      <!-- SECTION TEAM -->
+      <section class="section" id="team">
+        <div class="container text-center">
+          <!-- TEAM INFO -->
+          <div class="marginB-64">
+            <span class="heading-4">Gran equipo</span>
+            <h2 class="heading-2">NUESTROS INSTRUCTORES</h2>
+            <img src="src/images/others/line-cyan.png" alt="line-cyan">
           </div>
-          <div class="lg-text-right">
-            <a class="btn-big scroll scroll" href="#order">PIDE TUS SERVICIOS</a>
+          <!-- TEAM CARDS -->
+          <div class="row columns-3 gap-24">
+            <div>
+              <div class="marginB-16">
+                <img src="src/images/card-images/card-team-1.jpg" alt="card-team-1">
+              </div>
+              <div class="padding-16">
+                <h3 class="heading-3 medium">Francisco Esquibel</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+              </div> 
+              <div>
+                <ul class="flex justify-center aling-center">
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-facebook-f icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-twitter icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-google icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-instagram icon-section"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+            <div>
+              <div class="marginB-16">
+                <img src="src/images/card-images/card-team-2.jpg" alt="card-team-2">
+              </div>
+              <div class="padding-16">
+                <h3 class="heading-3 medium">Patricia Carrillo</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+              </div> 
+              <div>
+                <ul class="flex justify-center aling-center">
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-facebook-f icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-twitter icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-google icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-instagram icon-section"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="marginB-16">
+                <img src="src/images/card-images/card-team-3.jpg" alt="card-team-3">
+              </div>
+              <div class="padding-16">
+                <h3 class="heading-3 medium">Fausto Fuentes</h3>
+                <p class="paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi culpa aspernatur, possimus omnis natus doloremque maiores.</p>
+              </div> 
+              <div>
+                <ul class="flex justify-center aling-center">
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-facebook-f icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-twitter icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-google icon-section"></i></a></li>
+                  <li><a href="#" class="scroll"><i class="fa-brands fa-instagram icon-section"></i></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -248,21 +336,36 @@
         <div></div>
       </div>
     </main>
-    <footer class="footer bg-black">
+    <!-- FOOTER -->
+    <footer class="footer bg-black"> scroll
       <div class="container row columns-3 gap-24 text-center lg-text-left">
-        <div class="lg-span-2">
-          <img src="src/images/icons/logo-white.png" alt="logo" style="height: 43px;">
-          <p class="paragraph-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod nulla, laborum quibusdam exercitationem expedita mollitia blanditiis nemo, ducimus eligendi commodi? Eaque necessitatibus.</p>
-        </div>
-        <div class="md-flex md-justify-right">
-          <div>
-            <h5 class="heading-5">ENLACES ÚTILES</h5>
-            <ul>
-              <li><a class="heading-4 scroll" href="#">NUESTRA COMPAÑIA</a></li>
-              <li><a class="heading-4 scroll" href="#">NUESTRA UBICACIÓN</a></li>
-              <li><a class="heading-4 scroll" href="#">CENTRO DE AYUDA</a></li>
-           </ul> 
-          </div>   
+        <div class="md-span-2 lg-span-3">
+          <div class="row columns-3 gap-24">
+            <div>
+              <img src="src/images/icons/Logo-white.png" alt="logo-white" style="height: 43px;">
+              <p class="paragraph-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod nulla, laborum quibusdam exercitationem expedita mollitia blanditiis nemo, ducimus eligendi commodi? Eaque necessitatibus.</p>
+            </div>
+            <div class="padding-16 lg-flex lg-justify-right">
+              <div>
+                <h5 class="heading-5 color-white">ENLACES ÚTILES</h5>
+                <ul>
+                  <li><a class="heading-4 scroll" href="#">NUESTRA COMPAÑIA</a></li>
+                  <li><a class="heading-4 scroll" href="#">NUESTRA UBICACIÓN</a></li>
+                  <li><a class="heading-4 scroll" href="#">CENTRO DE AYUDA</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="padding-16 lg-flex lg-justify-right">
+              <div>
+                <h5 class="heading-5 color-white">CONTÁCTENOS</h5>
+                <ul>
+                  <li><a class="heading-4 scroll" href="#">NUESTRA COMPAÑIA</a></li>
+                  <li><a class="heading-4 scroll" href="#">NUESTRA UBICACIÓN</a></li>
+                  <li><a class="heading-4 scroll" href="#">CENTRO DE AYUDA</a></li>
+                </ul>
+              </div>   
+            </div>
+          </div>
         </div>
         <div class="md-flex aling-center lg-span-2">
           <h6 class="heading-6 margin-0">2022 © Plantilla de Axel Jiménez. Todos los derechos reservados. </h6>
@@ -278,10 +381,7 @@
     <!-- SCRIPTS -->
     <script src="dist/js/loader.js"></script>
     <script src="dist/js/navbar.js"></script>
-    <script src="dist/js/modal.js"></script>
     <script src="dist/js/scroll.js"></script>
   </body>
 </html>
 
-
- 

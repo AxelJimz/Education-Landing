@@ -22,8 +22,11 @@ $width-container: (
 
 .header {
   background-color: map-get($map: $header, $key: bg);
-  background-image: map-get($map: $header, $key: bg-image) no-repeat center;
+  background-image: url(../../src/images/backgrounds/header-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .nav {
@@ -47,6 +50,6 @@ header > .container {
   display: none;
 }
 .d-block {
-  display: block;
+  display: inline-block;
 }
 

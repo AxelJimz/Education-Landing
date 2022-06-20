@@ -19,7 +19,6 @@
 .navbar-link {
   padding: 1rem 0;
   font-size: map-get($map: $navbar, $key: size);
-  font-weight: map-get($map: $navbar, $key: weight);
   color: map-get($map: $navbar, $key: color);
 }
 
@@ -172,6 +171,119 @@
     }
   }
 }
+
+@mixin isMd-Flex($used : nth($list : $md-flex, $n : 1) ) {
+  @if ($used == true) {
+      .md-flex {
+          display: nth($list: $md-flex, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-Column($used : nth($list : $md-column, $n : 1) ) {
+  @if ($used == true) {
+      .md-col {
+          flex-direction: nth($list: $md-column, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-JustifyLeft($used : nth($list : $md-justify-left, $n : 1) ) {
+  @if ($used == true) {
+      .md-justify-left {
+          justify-content: nth($list: $md-justify-left, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-JustifyCenter($used : nth($list : $md-justify-center, $n : 1) ) {
+  @if ($used == true) {
+      .md-justify-center {
+          justify-content: nth($list: $md-justify-center, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-JustifyRight($used : nth($list : $md-justify-right, $n : 1) ) {
+  @if ($used == true) {
+      .md-justify-right {
+          justify-content: nth($list: $md-justify-right, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-JustifyBetween($used : nth($list : $md-justify-between, $n : 1) ) {
+  @if ($used == true) {
+      .md-justify-between {
+          justify-content: nth($list: $md-justify-between, $n: 2);
+      }
+  }
+}
+
+@mixin isMd-JustifySAround($used : nth($list : $md-justify-around, $n : 1) ) {
+  @if ($used == true) {
+      .md-justify-around {
+          justify-content: nth($list: $md-justify-around, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-Flex($used : nth($list : $lg-flex, $n : 1) ) {
+  @if ($used == true) {
+      .lg-flex {
+          display: nth($list: $lg-flex, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-Column($used : nth($list : $lg-column, $n : 1) ) {
+  @if ($used == true) {
+      .lg-col {
+          flex-direction: nth($list: $lg-column, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-JustifyLeft($used : nth($list : $lg-justify-left, $n : 1) ) {
+  @if ($used == true) {
+      .lg-justify-left {
+          justify-content: nth($list: $lg-justify-left, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-JustifyCenter($used : nth($list : $lg-justify-center, $n : 1) ) {
+  @if ($used == true) {
+      .lg-justify-center {
+          justify-content: nth($list: $lg-justify-center, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-JustifyRight($used : nth($list : $lg-justify-right, $n : 1) ) {
+  @if ($used == true) {
+      .lg-justify-right {
+          justify-content: nth($list: $lg-justify-right, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-JustifyBetween($used : nth($list : $lg-justify-between, $n : 1) ) {
+  @if ($used == true) {
+      .lg-justify-between {
+          justify-content: nth($list: $lg-justify-between, $n: 2);
+      }
+  }
+}
+
+@mixin isLg-JustifySAround($used : nth($list : $lg-justify-around, $n : 1) ) {
+  @if ($used == true) {
+      .lg-justify-around {
+          justify-content: nth($list: $lg-justify-around, $n: 2);
+      }
+  }
+}
+
 
 /* FLEXBOX CLASS */
 
@@ -552,19 +664,20 @@
   text-align: right;
 }
 
-/* WEIGHT */
-.light {
-  font-weight: 300;
-}
+/* FONT WEIGHT */
+
 .regular {
   font-weight: 400;
 }
+
 .medium {
   font-weight: 500;
 }
+
 .bold {
   font-weight: 700;
 }
+
 .extrabold {
   font-weight: 900;
 }
@@ -1029,6 +1142,13 @@
       }
   }
 }
+@mixin isPadding-24($used : nth($list: $padding-24, $n: 1)) {
+  @if ($used == true) {
+      .padding-24 {
+          padding: nth($list: $padding-24, $n: 2);
+      }
+  }
+}
 @mixin isPadding-32($used : nth($list: $padding-32, $n: 1)) {
   @if ($used == true) {
       .padding-32 {
@@ -1150,10 +1270,18 @@
 }
 
 /* SPACING BOX CLASS */
+.w-100 {
+  width: 100%
+}
+
+.h-64 {
+  height: 4rem;
+}
 
 @include isPadding-0();
 @include isPadding-8();
 @include isPadding-16();
+@include isPadding-24();
 @include isPadding-32();
 @include isPadding-64();
 @include isPadding-96();
@@ -1166,10 +1294,10 @@
 @include isPaddingX-64();
 @include isPaddingX-96();
 @include isMargin-0();
+@include isMarginBottom-8();
 @include isMarginBottom-16();
 @include isMarginBottom-24();
 @include isMarginBottom-32();
 @include isMarginBottom-64();
-
 
 @import "backgrounds";

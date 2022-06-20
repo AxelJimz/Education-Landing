@@ -9,11 +9,11 @@ $icon-header : (
 );
 // * ICON SECTION
 $icon-section : (
-    "used" : false,
-    "margin" : none,
-    "size" : none,
-    "color" : none,
-    "color-hover" : none,
+    "used" : true,
+    "margin" : 0 1rem 0 0,
+    "size" : 0.875rem,
+    "color" : #999999,
+    "color-hover" : #00c389,
 );
 // * ICON FOOTER
 $icon-footer : (
