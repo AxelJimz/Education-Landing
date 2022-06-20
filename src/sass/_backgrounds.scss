@@ -1,25 +1,33 @@
 /* BACKGROUNDS */
-.bg-banner {
-    background-image: url(../../src/images/backgrounds/header-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.bg-orange {
+    background-color: #FA6742;
 }
-.bg-light {
-    background-color: #fafafa;
+
+.bg-cyan {
+    background-color: #2BC2A7;
 }
+
+.bg-yellow {
+    background-color: #FFB72F;
+}
+
 .bg-black {
-    background-color: #1b1b1b;
+    background-color: #1B1B1B;
+}
+
+.bg-light {
+    background-color: #f3f3f3;
+}
+
+.bg-white {
+    background-color: #fff;
 }
 
 /* COLORS */
-
-.color-black {
-    color: #1b1b1b;
-}
 .color-white {
     color: #fff;
 }
 
-
+.color-black {
+    color: #1b1b1b;
+}

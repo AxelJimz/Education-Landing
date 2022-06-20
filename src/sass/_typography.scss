@@ -19,7 +19,7 @@ $heading-2 : (
     "weight" : 700,
     "spacing" : none,
     "leading" : none,
-    "color" : #1b1b1b,
+    "color" : #fa6742,
 );
 $heading-3 : (
     "used" : true,
@@ -43,7 +43,7 @@ $heading-4 : (
 );
 $heading-5 : (
     "used" : true,
-    "margin" : 0 0 1rem 0,
+    "margin" : 1rem 0,
     "family" : none,
     "size" : 1rem,
     "weight" : none,
@@ -55,7 +55,7 @@ $heading-6 : (
     "used" : true,
     "margin" : 0 0 1rem 0,
     "family" : none,
-    "size" : 0.688rem,
+    "size" : 11px,
     "weight" : none,
     "spacing" : none,
     "leading" : none,
@@ -67,30 +67,30 @@ $paragraph-1 : (
     "used" : true,
     "margin" : 0.5rem 0 1.5rem 0,
     "family" : none,
-    "size" : 1rem, 
+    "size" : 0.875rem, 
     "weight" : none,
     "spacing" : none,
     "leading" : 1.5rem,
-    "color" : #AAAAAA,
+    "color" : #fff,
 );
 $paragraph-2 : (
     "used" : true,
-    "margin" : 0.5rem 0 1.5rem 0,
+    "margin" : 0.5rem 0,
     "family" : none,
     "size" : 0.875rem,
-    "weight" : none,
+    "weight" : 500,
     "spacing" : none,
     "leading" : 1.5rem,
     "color" : #999999,
 );
 $paragraph-3 : (
     "used" : true,
-    "margin" : 0.5rem 0 1.5rem 0,
+    "margin" : 0.5rem 0 1rem 0,
     "family" : none,
-    "size" : 0.875REM,
-    "weight" : none,
+    "size" : 0.875rem,
+    "weight" : 500,
     "spacing" : none,
-    "leading" : none,
+    "leading" : 1.5rem,
     "color" : #999999,
 );
 $paragraph-4 : (
